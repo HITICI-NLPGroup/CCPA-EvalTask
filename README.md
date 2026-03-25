@@ -73,6 +73,15 @@
 
 ---
 
+## 💬 微信交流群
+
+欢迎各位参赛同学加入微信交流群
+
+<img src="https://github.com/HITICI-NLPGroup/CCPA-EvalTask/blob/main/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.jpg" width="30%"  alt="微信交流群" align="center"/>
+
+
+---
+
 ## 📖 参考文献
 
 如果您对我们的工作感兴趣，欢迎查看我们的工作
