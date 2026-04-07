@@ -19,6 +19,8 @@
 为了进一步衡量模型在中文古诗词赏析场景中的语言理解深度与文化推理能力，我们推出第二届中文古诗词赏析评测。在第一届的基础上，本届评测进一步聚焦模型的**深度理解与复杂推理能力**，引入更具挑战性的高级任务，以全面考察模型对古诗词文化内涵与高层语义结构的掌握程度。
 具体任务设置如下：
 
+### 🔍 Task：古诗词理解
+
 #### 1️⃣ 字词理解（Word-level Understanding）
 解释古诗词中**词语或短语的含义**  
 - 题型：问答题
@@ -31,8 +33,8 @@
 判断诗人通过诗句表达的情感倾向  
 - 题型：选择题
 
-Task 1、2、3（理解）
-提交为 task1.json，格式见上届
+Task 1️⃣、2️⃣、3️⃣
+提交为 task1.json，格式见[上届](https://github.com/HITICI-NLPGroup/CCPA-EvalTask/tree/main/CCPA%202025)
 
 #### 4️⃣ 典故识别（Allusion Identification）
 识别诗句中的典故，并进行解释  
@@ -43,7 +45,7 @@ Task 1、2、3（理解）
     "que": "北斗七星高，哥舒夜带刀。"
 }
 ```
-📌 提交格式（task2.json）：
+📌 **提交格式**（task2.json）：
 0 代表不含典故，1代表包含典故，不包含典故默认不会进行answer对比
 ```json
 {
@@ -52,20 +54,21 @@ Task 1、2、3（理解）
 }
 ```
 
-🔍 Task 2：古诗词推理
+### 🔍 Task：古诗词推理
 
 该任务侧重考察模型的高阶推理能力与语义关联能力，包含两个子任务：
 
-1️⃣ 古诗词类比（Analogy Reasoning）
+#### 1️⃣ 古诗词类比（Analogy Reasoning）
 
 从诗句中抽取隐含关系或语义对应，完成类比推理或填空。
-📌 示例：
+
+📌 **数据示例：**
 ```json
 {
     "que": "杜甫的《客至》中，从“____________，____________”两句中能够感受到主人竭诚尽意的盛情和力不从心的歉疚。"
 }
 ```
-📌 提交格式（task3.json）：
+📌 **提交格式**（task3.json）：
 ```json
 {
     "answer": [
@@ -75,11 +78,12 @@ Task 1、2、3（理解）
 }
 ```
 👉 注：答案不严格匹配标点符号
-2️⃣ 古诗词辨析（Critical Analysis）
+
+#### 2️⃣ 古诗词辨析（Critical Analysis）
 
 根据诗词内容与语境，对多个选项进行分析，选择最合理或不正确的一项。
 
-📌 示例输入：
+📌 **数据示例：**
 ```json
 {
     "title": "元珍",
@@ -99,17 +103,12 @@ Task 1、2、3（理解）
     ]
 }
 ```
-📌 提交格式（task4.json）：
+📌 **提交格式**（task4.json）：
 ```json
 {
     "answer": "A"
 }
 ```
-
-
-
-
-
 
 
 
@@ -149,7 +148,7 @@ Task 1、2、3（理解）
 
 欢迎各位参赛同学加入微信交流群
 
-<img src="https://github.com/HITICI-NLPGroup/CCPA-EvalTask/blob/main/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.jpg" width="30%"  alt="微信交流群" align="center"/>
+<img src="https://github.com/HITICI-NLPGroup/CCPA-EvalTask/blob/main/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png" width="30%"  alt="微信交流群" align="center"/>
 
 
 ---
