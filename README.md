@@ -329,7 +329,7 @@ http://cips-cl.org/static/CCL2026/cclEssay/notice/index.html
 
 欢迎各位参赛同学加入微信交流群
 
-<img src="https://github.com/HITICI-NLPGroup/CCPA-EvalTask/blob/main/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4.png" width="30%"  alt="微信交流群" align="center"/>
+<img src="https://github.com/HITICI-NLPGroup/CCPA-EvalTask/blob/main/%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4_new.png" width="30%"  alt="微信交流群" align="center"/>
 
 ---
 
